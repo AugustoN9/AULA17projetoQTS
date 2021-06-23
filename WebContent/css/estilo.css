@@ -1,0 +1,121 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', fantasy;
+
+    /*font-family: 'Open Sans', sans-serif;*/
+}
+
+body, html {
+  height: 100%;
+}
+
+body{
+  background-image: url('https://lh3.googleusercontent.com/pw/ACtC-3cpSLJF7guc6b3-IMnXzzeOOb2FcrxlaZIjpuVFpGCRh_xaRd6uVmgZp1k_mzXbcSkHxMhcwAvp-kivgXYCHvfInXd8tfdg0eiz5SBThXUoNdJKwJf5h9ScGfBqzpEgXA5Fpj0VBZdTh4SwM67Dt7rm=w1477-h830-no?authuser=0');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p1{
+  background-image: url('https://lh3.googleusercontent.com/pw/ACtC-3fD8tW-NyOc4FxwJudbpPmc2kkCivdekzuL1mJsGviFgtjDSXtMnJwNEW224adUUwS4Piv-XakUenTq81eM6skA7C12Q7fdgHzHnvDXyl5f2hy-IAnt9cALXnzuQE1VTOzPBObXKptraE0njDuUAjg7=w1329-h830-no?authuser=0');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p2{
+  background-image: url('https://lh3.googleusercontent.com/pw/ACtC-3cIwK48xx3GJVVjwHirtIx1LQc6850OyWl6WPna7DrNb2vOoI-ogSkoNYgIqAnKbqZT--8-HLEl1e-sLFqGb9QE1sXZsX8PcIVb36IlPGFebdHqvM-oqJkqGy_N6w4Z14wABMxzVnwgpZjL-xlUriW1=w1329-h830-no?authuser=0');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p3{
+  background-image: url('https://lh3.googleusercontent.com/pw/ACtC-3c-P9lSbpEF0ef9AZeJv-p1KUc80M9UwISJJKgTfowclCqjYbE3rc-kE1yKCyuESr092ElovL5471XTeRKrsp5XJAaj4Qr_qSzb1HKWa0QBMNvcAO7fbj6fJJhWNq6hmuhNxXafTxEK4sq4OmPTQLSX=w1329-h830-no?authuser=0');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p4{
+  background-image: url('https://lh3.googleusercontent.com/pw/ACtC-3f1pvlpczYTRXUFKrb9Qe4z0V7WT68Hm3rGOGKHhQ6WnD7NTcLM1d05I6jtzbw33K7_hbIqRkypvkQaa2no6LeYmLaHgbWxAUcgRkwnvZFZ8qG30hrJFPPF1GkLuu-NLBaJiZ0WLtg0vNbOlUDioKPw=w1270-h830-no?authuser=0');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h3{
+  text-align: right;
+  font-family: 'arial';
+  font-style: italic;
+  font-weight: bold;
+}
+
+table tr th {
+  font-family: 'arial';
+  border-bottom: 3px solid black;
+}
+
+table tr td{
+  text-align: right;
+  font-style: italic;
+  font-size: 35px;
+  min-width: 70px;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 10px;
+  margin: 0 0 0 0;
+}
+
+#tab1{
+  -background-color: white;
+  -border: 5px solid white;
+  float: left;
+  margin-top: 90px;
+  margin-left: 25%;
+  font-family: 'Teko';
+  font-size: 30px;
+  color: white;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#menu-h{
+    background-color: rgb(37, 37, 39, 0.2);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
